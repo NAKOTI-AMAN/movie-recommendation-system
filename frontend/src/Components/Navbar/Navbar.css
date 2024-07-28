@@ -1,0 +1,24 @@
+.navbar{
+    height: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 43px;
+}
+.navbar div{
+    background-color: rgba(33, 5, 160, 0.185);
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-weight: 600;
+    color:  rgb(107, 107, 107);
+    cursor: pointer;
+}
+.navbar div:hover{
+    background-color: rgba(33, 5, 160, 0.979);
+    color: white;
+}

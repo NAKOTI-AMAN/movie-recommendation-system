@@ -1,0 +1,142 @@
+.sign-up-page-popup {
+  background-color: rgb(87, 50, 250);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.sign-up-page {
+  background-color: rgb(87, 50, 250);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  display: flex;
+}
+.sign-up-page-left {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: right;
+}
+.sign-up-page-left div img {
+  height: 100%;
+  width: 100%;
+}
+.sign-up-page-right {
+  height: 100%;
+  width: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.close {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -85px;
+  top: 50px;
+  cursor: pointer;
+}
+.close img {
+  height: 100%;
+  width: 100%;
+}
+.sign-up-page-structure {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(143, 143, 255);
+  padding-bottom: 30px;
+  height: 70%;
+  width: 70%;
+}
+.auth-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text {
+  color: rgb(87, 50, 250);
+  font-size: 48px;
+  font-weight: 700;
+}
+.underline {
+  width: 61px;
+  height: 6px;
+  background-color: rgb(87, 50, 250);
+  border: 9px;
+}
+
+.sign-up-success-message {
+  color: green;
+  font-size: 1.2em;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.sign-up-error-message {
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.sign-up-page-structure form {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+  height: 70px;
+  background-color: #eaeaea;
+  border-radius: 6px;
+}
+.input img {
+  margin: 0px 30px;
+}
+.input input {
+  height: 50px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+.submit-auth {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 50px;
+  color: white;
+  background-color: rgb(87, 50, 250);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gray {
+  background-color: #eaeaea;
+  color: #676767;
+
+}
+

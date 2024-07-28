@@ -1,0 +1,37 @@
+.recommendations{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.recommendations-below {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .recommendation-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .recommendation-card-poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  .recommendation-card-title {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  

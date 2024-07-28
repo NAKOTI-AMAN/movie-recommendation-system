@@ -1,0 +1,48 @@
+body {
+  background-color: rgba(163, 156, 187, 0.253);
+}
+.explore-movie-top {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  position: relative;
+  --background-image: none;
+}
+.go-home {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: -200px;
+  cursor: pointer;
+}
+.go-home img {
+  height: 100%;
+  width: 100%;
+}
+.explore-movie-top::before {
+  content: "";
+  background: var(--background-image) no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: -1;
+  background-size: cover;
+  background-position: 20% 30%;
+}
+.explore-movie-top-left {
+  height: 80%;
+}
+.explore-movie-top-left img {
+  height: 100%;
+}
+.explore-movie-top-right {
+  width: 50%;
+}
+.explore-movie-bottom {
+  padding: 50px;
+}
